@@ -8,30 +8,37 @@ Dataset Description
 
 The dataset includes four major types of features:
 
-Geographical Data: Country, Latitude, Longitude
-Weather Metrics: Temperature, Humidity, Pressure, Wind Speed
-Air Quality Metrics: PM2.5, PM10, CO, Ozone, AQI
-Temporal Data: Timestamps, Sunrise/Sunset, Moon phases
+Geographical Data: Country, Latitude, Longitude  
+Weather Metrics: Temperature, Humidity, Pressure, Wind Speed  
+Air Quality Metrics: PM2.5, PM10, CO, Ozone, AQI  
+Temporal Data: Timestamps, Sunrise/Sunset, Moon phases  
 
-📁 Project Structure
-├── data/
-│   ├── Global_Weather_Repository.csv
-│   ├── Global_Weather_Final_With_Predictions.csv
-│
-├── notebooks/
-│   ├── EDA_and_Modeling.ipynb
-│   ├── Final_Predictions.ipynb
-│
-├── models/
-│   ├── best_model_pm2.5.pkl
-│   ├── best_model_aqi.pkl
-│   ├── best_model_temperature.pkl
-│
-├── reports/
-│   ├── Final_Project_Report.pdf
-│   ├── Visualization_Report.pdf
-│
-└── README.md
+Data Cleaning & Feature Engineering
+1. Missing Value Handling
+
+Median/mean imputation performed per country to preserve local characteristics.
+
+2. Outlier Treatment
+
+Clipping used to fix physically impossible values.
+
+Winsorization applied to smooth extreme values caused by faulty sensors.
+
+3. Datetime Feature Extraction
+
+Derived additional features:
+
+last_updated_hour, last_updated_minute
+
+sunrise_hour, sunset_hour
+
+moonrise_hour, moonset_hour
+
+4. Ordinal Encoding for Cyclical Variables
+
+Wind Direction (N → NE → ... → NNW)
+
+Moon Phase (New → Waxing → Full → Waning)
 
 📊 Dataset Summary
 
