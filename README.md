@@ -101,6 +101,34 @@ The models predicted:
 
     - This enables forward-looking environmental risk analysis.
 
+
+Final Deliverables  
+1. Global_Weather_Final_With_Predictions.csv
+
+Includes:
+
+All original cleaned data
+
+Engineered features
+
+Model predictions
+
+Scenario predictions
+
+2. Country Ranking Dataset
+
+Contains historical and predicted top/bottom 10 country lists.
+
+3. Tableau Dashboard
+
+Interactive visualization of:
+
+Global air quality
+
+Temperature heatmaps
+
+Before vs After predictions
+
 # Global Weather & Air Quality Analysis & Predictive Modeling
 **Overview**
 
