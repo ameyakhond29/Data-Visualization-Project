@@ -1,5 +1,8 @@
-# Global Weather & Air Quality — EDA, ML Modeling & Predictive Analytics
-- Overview
+# Global Weather & Air Quality Analysis & Predictive Modeling
+Overview
+
+This project provides a complete data science workflow for analyzing and predicting global weather and air-quality metrics. It includes data cleaning, exploratory data analysis (EDA), machine learning modeling, scenario forecasting, and dashboard-ready output generation. The dataset contains over 100,000 global observations with more than 40 environmental features.
+
 
 This project provides an end-to-end data science solution for analyzing and predicting global weather and air-quality patterns. It includes:
 
