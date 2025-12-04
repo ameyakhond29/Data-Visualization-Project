@@ -59,15 +59,19 @@ Data Cleaning & Feature Engineering
     - Geospatial analysis highlights global pollution clusters.
 
     
-🤖 Machine Learning Models
+Machine Learning Modeling
 
-Three regression models were tested for each target variable:
+    Three regression models were evaluated:
 
-Random Forest Regressor
+    - Random Forest Regressor
 
-XGBoost Regressor
+    - XGBoost Regressor
 
-KNN Regressor
+    - KNN Regressor
+
+**Best Model**
+
+\\Random Forest performed best for all three targets.\\ 
 
 # Global Weather & Air Quality Analysis & Predictive Modeling
 **Overview**
