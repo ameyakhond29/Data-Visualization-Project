@@ -38,24 +38,27 @@ Data Cleaning & Feature Engineering
 
 - Wind Direction (N → NE → ... → NNW)
 
-- Moon Phase (New → Waxing → Full → Waning)
+- Moon Phase (New → Waxing → Full → Waning
+
 
 **Exploratory Data Analysis (EDA)**
-Key Insights
+    Key Insights
 
-Temperature typically ranges between 20–30°C globally.
+    - Temperature typically ranges between 20–30°C globally.
 
-PM2.5 and PM10 distributions are heavily skewed due to pollution hotspots.
+    - PM2.5 and PM10 distributions are heavily skewed due to pollution hotspots.
 
-Strong correlation found between PM2.5, PM10, and AQI.
+    - Strong correlation found between PM2.5, PM10, and AQI.
 
-Humidity and temperature show expected inverse patterns.
+    - Humidity and temperature show expected inverse patterns.
 
-Pollution levels peak during morning and evening rush hours.
+    - Pollution levels peak during morning and evening rush hours.
 
-Country-level rankings were generated for PM2.5, AQI, and Temperature.
+    - Country-level rankings were generated for PM2.5, AQI, and Temperature.
 
-Geospatial analysis highlights global pollution clusters.
+    - Geospatial analysis highlights global pollution clusters.
+
+    
 🤖 Machine Learning Models
 
 Three regression models were tested for each target variable:
