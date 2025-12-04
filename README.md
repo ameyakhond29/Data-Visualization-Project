@@ -154,6 +154,8 @@ Temperature heatmaps
 
 Before vs After predictions
 
+Dashboard Link: https://public.tableau.com/app/profile/ameya.khond4240/viz/Project_17647982797680/Story1?publish=yes
+
 ## Future Enhancements
 
 Add time-series forecasting (LSTM, ARIMA, Prophet)
