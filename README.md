@@ -16,29 +16,29 @@ The dataset includes four major types of features:
 Data Cleaning & Feature Engineering
 1. Missing Value Handling
 
-Median/mean imputation performed per country to preserve local characteristics.
+- Median/mean imputation performed per country to preserve local characteristics.
 
 2. Outlier Treatment
 
-Clipping used to fix physically impossible values.
+- Clipping used to fix physically impossible values.
 
-Winsorization applied to smooth extreme values caused by faulty sensors.
+- Winsorization applied to smooth extreme values caused by faulty sensors.
 
 3. Datetime Feature Extraction
 
-Derived additional features:
+- Derived additional features:
 
-last_updated_hour, last_updated_minute
+    last_updated_hour, last_updated_minute
 
-sunrise_hour, sunset_hour
+    sunrise_hour, sunset_hour
 
-moonrise_hour, moonset_hour
+    moonrise_hour, moonset_hour
 
 4. Ordinal Encoding for Cyclical Variables
 
-Wind Direction (N → NE → ... → NNW)
+- Wind Direction (N → NE → ... → NNW)
 
-Moon Phase (New → Waxing → Full → Waning)
+- Moon Phase (New → Waxing → Full → Waning)
 
 **Exploratory Data Analysis (EDA)**
 Key Insights
