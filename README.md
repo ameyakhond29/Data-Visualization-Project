@@ -1,17 +1,17 @@
 # Global Weather & Air Quality Analysis & Predictive Modeling
-Overview
+**Overview**
 
 This project provides a complete data science workflow for analyzing and predicting global weather and air-quality metrics. It includes data cleaning, exploratory data analysis (EDA), machine learning modeling, scenario forecasting, and dashboard-ready output generation. The dataset contains over 100,000 global observations with more than 40 environmental features.
 
 
-Dataset Description
+**Dataset Description**
 
 The dataset includes four major types of features:
 
-Geographical Data: Country, Latitude, Longitude  
-Weather Metrics: Temperature, Humidity, Pressure, Wind Speed  
-Air Quality Metrics: PM2.5, PM10, CO, Ozone, AQI  
-Temporal Data: Timestamps, Sunrise/Sunset, Moon phases  
+**Geographical Data:** Country, Latitude, Longitude  
+**Weather Metrics:** Temperature, Humidity, Pressure, Wind Speed  
+**Air Quality Metrics:** PM2.5, PM10, CO, Ozone, AQI  
+**Temporal Data:** Timestamps, Sunrise/Sunset, Moon phases  
 
 Data Cleaning & Feature Engineering
 1. Missing Value Handling
