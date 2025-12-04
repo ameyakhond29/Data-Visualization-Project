@@ -40,80 +40,22 @@ Wind Direction (N → NE → ... → NNW)
 
 Moon Phase (New → Waxing → Full → Waning)
 
-📊 Dataset Summary
+**Exploratory Data Analysis (EDA)**
+Key Insights
 
-The dataset includes four major categories of variables:
+Temperature typically ranges between 20–30°C globally.
 
-Category	Description	Examples
-Geographical	Location context	Country, Latitude, Longitude
-Weather Metrics	Atmospheric measurements	Temperature, Humidity, Pressure, Wind Speed
-Air Quality Metrics	Pollution levels	PM2.5, PM10, CO, Ozone, AQI
-Temporal	Time-based signals	Timestamp, Sunrise, Sunset, Moonrise
-🧹 Data Cleaning & Feature Engineering
-✔ Missing Value Handling
+PM2.5 and PM10 distributions are heavily skewed due to pollution hotspots.
 
-Median/mean imputation based per country, preserving regional patterns.
+Strong correlation found between PM2.5, PM10, and AQI.
 
-✔ Outlier Treatment
+Humidity and temperature show expected inverse patterns.
 
-Clipping physically impossible values (e.g., negative precipitation).
+Pollution levels peak during morning and evening rush hours.
 
-Winsorization to smooth extreme sensor errors.
+Country-level rankings were generated for PM2.5, AQI, and Temperature.
 
-✔ Datetime Processing
-
-Derived features include:
-
-last_updated_hour, last_updated_minute
-
-sunrise_hour, sunset_hour
-
-moonrise_hour, moonset_hour
-
-✔ Ordinal Encoding for Cyclical Variables
-
-Used for:
-
-Wind Direction (N → NE → E → ...)
-
-Moon Phase (New → Waxing → Full → Waning)
-
-📈 Exploratory Data Analysis (EDA)
-
-Key findings include:
-
-🔹 Distributions
-
-Temperature clusters around 20–30°C.
-
-PM2.5 and PM10 are highly skewed—few regions experience extreme pollution.
-
-🔹 Relationships
-
-Temperature and humidity exhibit expected inverse trends.
-
-PM2.5 strongly correlates with PM10 and AQI.
-
-🔹 Country-Level Rankings
-
-Computed Top 10 and Bottom 10 countries for:
-
-PM2.5
-
-AQI
-
-Temperature
-
-🔹 Temporal Patterns
-
-Pollution peaks during morning/evening rush hours.
-
-Temperature peaks in the afternoon.
-
-🔹 Geospatial Insights
-
-Global scatter maps reveal continental and regional pollution hotspots.
-
+Geospatial analysis highlights global pollution clusters.
 🤖 Machine Learning Models
 
 Three regression models were tested for each target variable:
