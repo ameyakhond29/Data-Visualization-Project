@@ -64,8 +64,7 @@ Data Cleaning & Feature Engineering
 
 - Moon Phase (New → Waxing → Full → Waning
 
-
-**Exploratory Data Analysis (EDA)**
+## Exploratory Data Analysis (EDA)
     Key Insights
 
     - Temperature typically ranges between 20–30°C globally.
@@ -83,7 +82,7 @@ Data Cleaning & Feature Engineering
     - Geospatial analysis highlights global pollution clusters.
 
     
-Machine Learning Modeling
+## Machine Learning Modeling
 
     Three regression models were evaluated:
 
@@ -95,8 +94,10 @@ Machine Learning Modeling
 
 **Best Model**
 
-Random Forest performed best for all three targets.
+Random Forest performed best for all three targets.  
 
+
+### Performance Summary:
 | Target      | Test R² | MAE    | RMSE  |
 | ----------- | ------- | ------ | ----- |
 | Temperature | ~0.999  | ~0.005 | ~0.02 |
@@ -104,7 +105,7 @@ Random Forest performed best for all three targets.
 | AQI         | ~0.964  | ~0.07  | ~0.18 |
 
 
-**Scenario-Based Forecasting**
+## Scenario-Based Forecasting
 
 A future scenario was simulated by shifting the timestamp hour by +6 hours.
 The models predicted:
@@ -126,7 +127,7 @@ The models predicted:
     - This enables forward-looking environmental risk analysis.
 
 
-Final Deliverables  
+## Final Deliverables  
 1. Global_Weather_Final_With_Predictions.csv
 
 Includes:
@@ -153,7 +154,7 @@ Temperature heatmaps
 
 Before vs After predictions
 
-**Future Enhancements**
+## Future Enhancements
 
 Add time-series forecasting (LSTM, ARIMA, Prophet)
 
