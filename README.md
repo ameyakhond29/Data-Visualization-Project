@@ -4,7 +4,9 @@
 This project provides a complete data science workflow for analyzing and predicting global weather and air-quality metrics. It includes data cleaning, exploratory data analysis (EDA), machine learning modeling, scenario forecasting, and dashboard-ready output generation. The dataset contains over 100,000 global observations with more than 40 environmental features.
 
 
-**Project Structure**
+
+## Project Structure
+```
 ├── data/
 │   ├── Global_Weather_Repository.csv
 │   ├── Global_Weather_Final_With_Predictions.csv
@@ -23,7 +25,7 @@ This project provides a complete data science workflow for analyzing and predict
 │   ├── Visualization_Report.pdf
 │
 └── README.md
-
+```
 
 
 **Dataset Description**
