@@ -71,7 +71,7 @@ Machine Learning Modeling
 
 **Best Model**
 
-\\Random Forest performed best for all three targets.\\ 
+\Random Forest performed best for all three targets.\
 
 # Global Weather & Air Quality Analysis & Predictive Modeling
 **Overview**
