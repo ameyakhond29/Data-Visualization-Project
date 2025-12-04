@@ -71,7 +71,14 @@ Machine Learning Modeling
 
 **Best Model**
 
-\Random Forest performed best for all three targets.\
+Random Forest performed best for all three targets.
+
+| Target      | Test R² | MAE    | RMSE  |
+| ----------- | ------- | ------ | ----- |
+| Temperature | ~0.999  | ~0.005 | ~0.02 |
+| PM2.5       | ~0.986  | ~1.69  | ~4.78 |
+| AQI         | ~0.964  | ~0.07  | ~0.18 |
+
 
 # Global Weather & Air Quality Analysis & Predictive Modeling
 **Overview**
