@@ -80,6 +80,27 @@ Random Forest performed best for all three targets.
 | AQI         | ~0.964  | ~0.07  | ~0.18 |
 
 
+**Scenario-Based Forecasting**
+
+A future scenario was simulated by shifting the timestamp hour by +6 hours.
+The models predicted:
+
+    - pred_PM25
+
+    - pred_AQI
+
+    - pred_Temp
+
+    Predictions were aggregated by country to generate projected:
+
+    - Top 10 and Bottom 10 polluted countries
+
+    - Top 10 and Bottom 10 AQI rankings
+
+    - Temperature-based country rankings
+
+    - This enables forward-looking environmental risk analysis.
+
 # Global Weather & Air Quality Analysis & Predictive Modeling
 **Overview**
 
